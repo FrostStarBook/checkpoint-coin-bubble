@@ -1,7 +1,8 @@
 # Checkpoint starter template
 
-This is a template to quickly get started to use [Checkpoint](https://docs.checkpoint.fyi)
-to expose a GraphQL API to query data from your StarkNet contracts.
+
+
+
 
 ## Getting started
 
@@ -42,21 +43,7 @@ yarn dev # for local development or else `yarn start` for production build.
 
 This will expose a GraphQL API endpoint locally at http://localhost:3000. You can easily interact with this endpoint using the graphiql interface by visiting http://localhost:3000 in your browser.
 
-To fetch a list of Post's try the following query:
 
-```graphql
-query {
-  posts {
-    id
-    author
-    content
-    tag
-    created_at_block
-    created_at
-    tx_hash
-  }
-}
-```
 
 To learn more about the different ways you can query the GraphQL API, visit the Checkpoint documentation [here](https://docs.checkpoint.fyi/core-concepts/entity-schema).
 

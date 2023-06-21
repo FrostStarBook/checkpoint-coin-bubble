@@ -1,13 +1,13 @@
 {
-  "network_node_url": "https://starknet-goerli.infura.io/v3/46a5dd9727bf48d4a132672d3f376146",
+  "network_node_url": "https://starknet-goerli.infura.io/v3/89d267bf72f346b78cf8a86415c6008a",
   "sources": [
     {
-      "contract": "0x04d10712e72b971262f5df09506bbdbdd7f729724030fa909e8c8e7ac2fd0012",
-      "start": 185778,
-      "deploy_fn": "handleDeploy",
+      "contract": "0x0369e82f4c48427ef8149602c2a639bac3c6d9a8a0d7f0edd6fee49b6417dc4b",
+      "start": 821287,
+      "deploy_fn": "update_record",
       "events": [
         {
-          "name": "new_post",
+          "name": "record_updated",
           "fn": "handleNewPost"
         }
       ]

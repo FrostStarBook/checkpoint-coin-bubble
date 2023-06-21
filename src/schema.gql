@@ -1,10 +1,9 @@
 scalar Text
 
-type Post {
+type Score {
   id: String!
-  author: String!
-  content: Text!
-  tag: String
+  address: String!
+  score: Int!
   tx_hash: String!
   created_at: Int!
   created_at_block: Int!
