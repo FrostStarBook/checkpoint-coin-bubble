@@ -1,4 +1,4 @@
-import { toAddress, hexToDec } from './utils';
+import { toAddress } from './utils';
 import type { CheckpointWriter } from '@snapshot-labs/checkpoint';
 
 export async function handleDeploy() {
