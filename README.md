@@ -1,4 +1,14 @@
-# Checkpoint starter template
+# coin-bubble X checkpoint
+
+PRAGMA CAIRO 1.0 HACKATHON Entry
+
+Coin bubble is a full-chain elimination game, which uses checkpoint index starknet data to help us view user score records and total score distribution quickly and easily.
+
+![UI images](https://raw.githubusercontent.com/liushuheng163/checkpoint-coin-bubble/master/images/UI.jpeg)
+
+![mysql data](https://github.com/liushuheng163/checkpoint-coin-bubble/blob/master/images/mysql-data.jpeg?raw=true)
+
+
 
 
 
